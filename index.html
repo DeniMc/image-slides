@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+ <!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Card Slider html css only</title>
+</head>
+<body>
+
+    <div class="main-carousel">
+        <div class="cell"><img src="./images/protoPix/berlinSky1.jpg" alt=""></div>
+        <div class="cell"><img src="./images/protoPix/berlinSky2.jpg" alt=""></div>
+        <div class="cell"><img src="./images/protoPix/Enrique2.JPG" alt=""></div>
+        <div class="cell"><img src="./images/protoPix/Enrique3.JPG" alt=""></div>
+        <div class="cell"><img src="./images/protoPix/Enrique4.JPG" alt=""></div>
+        <div class="cell"><img src="./images/protoPix/EnriqueKick.JPG" alt=""></div>
+        <div class="cell"><img src="./images/protoPix/Gigi1.JPG" alt=""></div>
+        <div class="cell"><img src="./images/protoPix/gigi2.JPG" alt=""></div>
+        <div class="cell"><img src="./images/protoPix/lakehouse1.jpg" alt=""></div>
+        <div class="cell"><img src="./images/protoPix/lakehouse2.jpg" alt=""></div>
+        <div class="cell"><img src="./images/protoPix/lakehouse3.jpg" alt=""></div>
+      </div>
+
+   <!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+<script type="text/javascript">
+$('.main-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    wrapAround: true,
+    freeScroll: true
+  });
+  </script>
+</body>
+</html>
